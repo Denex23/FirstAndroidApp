@@ -5,4 +5,5 @@
     <string name="action_settings">Einstellungen</string>
     <string name="title_activity_main">Start</string>
     <string name="title_activity_display_message">Nachricht</string>
+    <string name="action_search">Suche</string>
 </resources>
