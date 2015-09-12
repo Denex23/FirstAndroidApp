@@ -3,11 +3,19 @@
     android:layout_height="match_parent"
     android:orientation="horizontal">
 
-    <fragment android:name="com.github.denex23.firstAndroidApp.BlankFragment"
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/fragment_container"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+
+    <!--
+    <fragment android:name="com.github.denex23.firstAndroidApp.EditTextFragment"
         android:id="@+id/text_fragment"
         android:layout_weight="1"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
+    -->
 
     <Button
         android:layout_width="wrap_content"
